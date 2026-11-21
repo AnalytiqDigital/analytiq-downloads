@@ -28,4 +28,6 @@ SHA-256 of `AnalytIQ-Inventory-1.2.0-Windows.zip`:
 
 ## Support
 
-WhatsApp **+234 812 431 4217** — Mon–Sat, 9:00–18:00 WAT.
+WhatsApp **0803 917 1767** · Calls **0812 431 4217** — Mon–Sat, 9:00–18:00 WAT.
+
+A product of [www.analytiq.ng](https://www.analytiq.ng).

@@ -4,15 +4,33 @@ Windows installer releases for AnalytIQ Inventory. The application source is kep
 
 ## Install
 
-1. Open the latest release and download `AnalytIQ-Inventory-1.2.0-Windows.zip`.
-2. Extract the ZIP, then run `AnalytIQ-Inventory-Setup-1.2.0.exe`.
+1. Open the latest release and download `AnalytIQ-Inventory-1.2.1-Windows.zip`.
+2. Extract the ZIP, then run `AnalytIQ-Inventory-Setup-1.2.1.exe`.
 3. If Windows SmartScreen says *Windows protected your PC*, click **More info → Run anyway** (the installer is not code-signed yet).
 4. After the first-run setup, enter your licence key under **Settings → Licence**.
 
-SHA-256 of `AnalytIQ-Inventory-1.2.0-Windows.zip`:
-`9dcaa5e06d9136b9f5a85404eb6ef8974263f9c53f009da8d93b6afe3f7d3bb6`
+SHA-256 of `AnalytIQ-Inventory-1.2.1-Windows.zip`:
+`33a85106731f2dccd3cc30c55bbc5fbc62a3bdfe6508991bff384c8ebd6067de`
 
-## What is new in 1.2.0
+## What is new in 1.2.1
+
+- **Licence expiry warning**: a banner from seven days before a licence or
+  trial ends, with a **Renew licence** button and the date in the licence
+  screen. Keys stay valid through the expiry day.
+- **First-run backup prompt**: choose an off-disk backup folder (USB, network
+  or cloud-synced); Settings → Backups warns when the folder is missing, on
+  the same drive, or no copy has been written.
+- **Key delivery and recovery**: keys are emailed and sent on WhatsApp after
+  payment when the cloud channels are configured, and the website's
+  `/retrieve-key` page recovers a key from the order reference and checkout
+  email.
+- **Correct support number**: the Help screen now shows WhatsApp
+  **0813 971 1767**.
+- 1.2.0 features remain: Cash & Bank, restaurant service flow and kitchen
+  tickets, 25-product POS paging, batches, price tiers, loyalty and stock
+  transfers.
+
+## What was new in 1.2.0
 
 - **Cash & Bank** under Finance: cash drawer, bank, POS and mobile-money
   accounts with live balances. Sales, refunds, voids, expenses and customer

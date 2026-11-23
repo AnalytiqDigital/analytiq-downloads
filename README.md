@@ -2,9 +2,27 @@
 
 Windows installer releases for AnalytIQ Inventory. The application source is kept private.
 
-## Install
+## Latest release — 1.2.2
 
-1. Open the latest release and download `AnalytIQ-Inventory-1.2.1-Windows.zip`.
+- [Download and install guide](DOWNLOAD_AND_INSTALL_GUIDE.md)
+- [ZIP package](https://github.com/AnalytiqDigital/analytiq-downloads/raw/main/AnalytIQ-Inventory-1.2.2-Windows.zip)
+- [Standalone setup executable](https://github.com/AnalytiqDigital/analytiq-downloads/raw/main/AnalytIQ-Inventory-Setup-1.2.2.exe)
+
+SHA-256 of `AnalytIQ-Inventory-1.2.2-Windows.zip`:
+`ddbfcbfadf3bcf086fcec5832cdd0cf6953bc4c9e64ac48cbe28b3cfabc8361c`
+
+## What is new in 1.2.2
+
+- Refreshed POS: bounded tile grid with a pinned cart, server-side pagination,
+  URL-synced search and category filters, a mobile cart sheet, and keyboard
+  shortcuts (`/`, `F9`, `Alt+Shift+C`).
+- Dashboard no longer hangs on a repeating analytics request.
+- Electron-native SQLite fixes setup on Electron 31, and licence activation now
+  binds one key to one computer with a **Deactivate** action in Settings.
+
+## Install (older 1.2.1 release)
+
+1. Open the 1.2.1 release and download `AnalytIQ-Inventory-1.2.1-Windows.zip`.
 2. Extract the ZIP, then run `AnalytIQ-Inventory-Setup-1.2.1.exe`.
 3. If Windows SmartScreen says *Windows protected your PC*, click **More info → Run anyway** (the installer is not code-signed yet).
 4. After the first-run setup, enter your licence key under **Settings → Licence**.
